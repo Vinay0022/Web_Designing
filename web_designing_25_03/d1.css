@@ -1,0 +1,31 @@
+h6{
+    background-color: brown;
+}
+h1{
+    background-color: red;
+}
+
+/* single line comment */
+
+/* 
+Multi-line comment
+It's a Multi-line comment
+*/
+
+p{
+    background-color: darkcyan;
+    color: white;
+}
+
+div{
+    background-color: aqua;
+    margin: 20px 20px 30px 50px;
+    /* This is long hand property 
+    padding-top: 10px;
+    padding-left: 17px;
+    padding-right: 30px ;
+    padding-bottom: 20px; */
+
+    /* This is short hand property */
+    padding: 5px 90px 50px 10px;
+}
