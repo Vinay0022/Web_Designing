@@ -1,0 +1,35 @@
+/* 
+lastest define property will get applied
+e.g.
+padding: 30px;
+padding-left: 20px;
+then padding-left will be applied.
+
+*/
+
+.first-section{
+    background-color: aqua;
+    text-align: start;
+    margin:40px 50px 10px 20px;
+padding: 20px;
+}
+
+/* descendent combinator */
+.first-section p{
+    text-align: center;
+}
+
+.second-section{
+    text-align: center;
+    background-color: beige;
+    margin:40px 50px 10px 20px;
+padding: 20px;
+}
+
+.third-section{
+    text-align: end;
+    background-color: cadetblue;
+    margin:40px 50px 50px 20px;
+    padding: 20px;
+    /* padding-left:100px; */
+}
