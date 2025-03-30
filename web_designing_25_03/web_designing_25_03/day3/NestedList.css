@@ -1,0 +1,56 @@
+/*
+concepts
+descendent combinator (space)
+child combinatro (>)
+
+properties
+1.text-shadow and box-shadow => left-right top-bottom blurr color
+
+trick
+1. centering html element
+   give some width to the container 
+   then put margin: 0 auto; it will align according to the width you have given to the
+   webpage.
+
+*/
+
+
+.content{
+    background-color: aqua;
+    
+    padding: 30px;
+    /* left-right top-bottom blur color */
+    box-shadow: 10px 10px 10px red;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.items{
+    list-style-type: none;
+}
+
+
+.items .frames{
+    list-style-type: georgian;
+}
+
+/* decendent combinator (space) */
+.items li{
+    padding: 10px 0 10px 0;
+}
+
+
+.front li {
+    color:white;
+    text-transform: uppercase;
+    font-size: 30px;
+    /* left-right top-bottom blur color */
+    text-shadow: 10px 10px 10px  red;
+}
+
+/* child combinator (>) */
+.items > li{
+    color: grey;
+    text-shadow: 10px 10px 10px red;
+}

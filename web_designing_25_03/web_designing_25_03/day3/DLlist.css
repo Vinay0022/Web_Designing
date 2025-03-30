@@ -1,0 +1,8 @@
+dl{
+background-color: aqua;
+}
+
+dt,dd{
+    color: red;
+    text-transform: uppercase;
+}
