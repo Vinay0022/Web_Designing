@@ -1,0 +1,77 @@
+.container {
+  background-color: aqua;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 23px;
+  padding: 20px;
+}
+
+dl,
+dt,
+dd {
+  padding: 10px;
+}
+
+.main-list__item--first {
+  color: red;
+}
+
+.main-list__item--second {
+  color: green;
+}
+
+.main-list__item--third {
+  color: blue;
+}
+
+/* First Level Item's Color */
+.main-list__first-level__item--first {
+  color: purple;
+}
+.main-list__first-level__item--second {
+  color: white;
+}
+.main-list__first-level__item--third {
+  color: green;
+}
+.main-list__first-level__item--fourth {
+  color: yellow;
+}
+
+/* Second Level Item's Color */
+.main-list__second-level__item--first {
+  color: red;
+}
+
+.main-list__second-level__item--second {
+  color: brown;
+}
+.main-list__second-level__item--third {
+  color: beige;
+}
+.main-list__second-level__item--fourth {
+  color: cadetblue;
+}
+.main-list__second-level__item--fifth {
+  color: yellowgreen;
+}
+
+/* Third Level Item's Color */
+.main-list__third-level__item--first {
+  color: darkgrey;
+}
+
+.main-list__third-level__item--second {
+  color: darkolivegreen;
+}
+.main-list__third-level__item--third {
+  color: darkmagenta;
+}
+.main-list__third-level__item--fourth {
+  color: darkred;
+}
+
+/* Main List Item's text shadow */
+.main-list > dt {
+  text-shadow: 10px 10px 10px black;
+}

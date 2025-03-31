@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Task</title>
+    <link rel="stylesheet" href="ListTask.css" />
+  </head>
+  <body>
+    <!-- BEM is a naming convention
+BEM stands for Block-Element-Modifier
+Block => Represent a Single Entity.
+Element(__) => Part of Block
+Modifier(--) => Modify the appearance or behavior of a block or element.
+      -->
+    <div class="container">
+      <h1>Preceding Text</h1>
+
+      <ol class="main-list" type="I">
+        <li class="main-list__item--first">List Item 1</li>
+
+        <ol type="a" class="main-list__first-level">
+          <li>Nested 1</li>
+          <li>Nested 2</li>
+        </ol>
+
+        <li class="main-list__item--second">List Item 2</li>
+
+        <ol class="main-list__second-level">
+          <li class="main-list__second-level__item--first">Nested Item 2.1</li>
+          <li class="main-list__second-level__item--second">Nested Item 2.2</li>
+
+          <ul class="main-list__second_level__second-nested">
+            <li class="main-list__second-level__second-nested__item--first">
+              Nested Item 2.1.1
+            </li>
+            <li class="main-list__second-level__second-nested__item--second">
+              Nested Item 2.1.2
+            </li>
+
+            <ul>
+              <li
+                class="main-list__second-level__second-nested__second-level__item--first"
+              >
+                Nested Item 2.2.2.1
+              </li>
+              <li
+                class="main-list__second-level__second-nested__second-level__item--second"
+              >
+                Nested Item 2.2.2.2
+              </li>
+            </ul>
+
+            <li class="main-list__second-level__second-nested__item--third">
+              Nested Item 2.1.3
+            </li>
+          </ul>
+          <li class="main-list__second-level__item--third">Nested Item 2.3</li>
+        </ol>
+
+        <li class="main-list__item--third">List Item 3</li>
+        <ul class="main-list__third-level">
+          <li>Nested 3.1</li>
+          <li>Nested 3.2</li>
+          <li>Nested 3.3</li>
+        </ul>
+      </ol>
+    </div>
+  </body>
+</html>

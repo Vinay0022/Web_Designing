@@ -1,0 +1,102 @@
+.container {
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 23px;
+}
+
+li {
+  padding: 10px;
+}
+
+/* Main List Items Colors */
+
+.main-list__item--first {
+  color: red;
+}
+.main-list__item--second {
+  color: green;
+}
+.main-list__item--third {
+  color: blue;
+}
+
+/* main-list
+      second level     
+       Item's color
+*/
+
+.main-list__second-level__item--first {
+  color: purple;
+}
+
+.main-list__second-level__item--second {
+  color: brown;
+}
+
+.main-list__second-level__item--third {
+  color: teal;
+}
+
+/* 
+Main List
+    Second Level
+      Second Nested 
+        Item's color 
+         
+*/
+
+.main-list__second-level__second-nested__item--first {
+  color: #ff00ff;
+}
+
+.main-list__second-level__second-nested__item--second {
+  color: #ff9500;
+}
+
+.main-list__second-level__second-nested__item--third {
+  color: #32cd32;
+}
+
+/* 
+Main List
+   Second Level
+      Second Nested 
+         Second Level
+            Item's Color 
+
+*/
+
+.main-list__second-level__second-nested__second-level__item--first {
+  color: #7e6313;
+}
+
+.main-list__second-level__second-nested__second-level__item--second {
+  color: #8b1550;
+}
+
+/* Both 
+Main List
+   First Level               
+    Item's color
+   Third Level
+     Item's color
+*/
+.main-list__first-level,
+.main-list__third-level {
+  color: rgb(122, 122, 4);
+}
+
+/* 
+Main List
+  First Level
+  Second Level
+  Third Level
+    text-shadow 
+*/
+.main-list__item--first,
+.main-list__item--second,
+.main-list__item--third {
+  text-shadow: 10px 10px 10px black;
+}
