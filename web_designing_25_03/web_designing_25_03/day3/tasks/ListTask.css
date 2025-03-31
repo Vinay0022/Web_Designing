@@ -10,6 +10,22 @@ li {
   padding: 10px;
 }
 
+/* Main List
+    Second Level 
+      Style Change  
+*/
+.main-list__second-level__second-nested {
+  list-style-type: circle;
+}
+
+/* Main List
+    Third Level
+      Style Change 
+       */
+.main-list__third-level {
+  list-style-type: disc;
+}
+
 /* Main List Items Colors */
 
 .main-list__item--first {
