@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+/* always mention where your specific layout element styling started and ended. */
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  padding: 0 15px 0 15px;
+  box-shadow: 10px 10px 22px darkgreen;
+}
+
+.navbar div h3 {
+  color: lightgreen;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: lightgreen;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+/* pesudeo classes reprsented by colon(:) in css */
+.nav-items li a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease-in;
+  /* text-shadow value left-right top-bottom blurr color */
+  text-shadow: 3px 2px 3px darkgreen;
+  border-radius: 10px;
+}
+
+/* navbar */
+
+/* main */
+
+/* part1 */
+.part1 {
+  background-color: beige;
+  height: 500px;
+  margin: 0;
+  text-align: center;
+}
+
+/* h1 tags have by defaut padding and margin */
+.part1 h1 {
+  margin: 0;
+}
+
+.part1-content {
+  padding: 30px 0 0 0;
+}
+
+/* main */
+
+/* footer */
+footer {
+  background-color: lightcyan;
+  height: 450px;
+}
+
+.fnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fnav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.fnav ul li a:hover {
+  color: aqua;
+}
+
+.fnav ul li {
+  padding: 5px 0 5px 0;
+}
+
+.fnav h3 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 26px;
+}
+/* footer */
