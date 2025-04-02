@@ -1,0 +1,87 @@
+/* sect1 */
+.sect1{
+    /* width: 90%; */
+    height: 600px;
+    /* Just like src in img tag we have url in backgroung-image */
+    background-image: linear-gradient(#253a239a, #43b02ebd, #434343), url(https://cdn.pixabay.com/photo/2025/03/20/18/28/sunset-9483600_1280.jpg);
+
+ /* background-position is related to the images part that is image top, bottom, left and right
+    It's not related to the container top, bottom etc.*/
+    background-position: center ;
+
+  /* background-repeat affects the repition of images */
+  background-repeat: no-repeat;
+
+    /* background-size changes the size of the image */
+    background-size: cover;
+  
+   border-radius: 5% 0 5% 0;
+background-attachment: fixed;
+}
+/* Flex center it's items according to the parent element's height and width
+Add this in previous day
+*/
+.text-content{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.text-content h1{
+    color: #ffff;
+    font-size: 40px;
+    text-shadow: 3px 4px 3px rgb(255, 0, 0);
+}
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+
+/* sect1 */
+
+/* sect2 */
+/* Unit 1vh = 225px new in css3*/
+.sect2{
+    background-color: aqua;
+    height: 30vh;
+}
+
+.sect2 h1{
+    text-align: center;
+}
+/* sect2 */
+
+/* sect3 */
+.sect3{
+
+    height: 600px;
+    background-image: linear-gradient(#253a239a, #43b02ebd, #434343), url(https://cdn.pixabay.com/photo/2025/03/20/18/28/sunset-9483600_1280.jpg);
+
+    background-position: center;
+
+  background-repeat: no-repeat;
+    background-size: cover;
+  
+   border-radius: 5% 0 5% 0;
+   background-attachment: fixed;
+}
+
+
+.sect3 .text-content{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.sect3 .text-content h1{
+    font-size: 30px;
+}
+
+/* sect3 */
+
