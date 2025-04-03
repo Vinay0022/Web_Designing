@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+video {
+  height: 500px;
+}
+
+/* Navbar */
+.navbar h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px red;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  color: white;
+  background-color: black;
+}
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+}
+.navbar-items a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.navbar-items a:hover {
+  background-color: silver;
+  color: black;
+}
+/* Navbar */
+
+/* background-image url should end with and extenstion otherwise it will not load */
+.main-container {
+  background-image: url(https://cdn.pixabay.com/photo/2014/08/03/19/13/leaf-409258_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+/* Section 1 */
+
+marquee {
+  width: 100%;
+  color: white;
+  margin: 70px 0 0 0;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+  text-shadow: 3px 3px 3px red;
+}
+
+.sect1 {
+  display: flex;
+  width: 100%;
+  margin: 350px 0 0 0;
+  justify-content: space-evenly;
+}
+.sect1-img {
+  width: 700px;
+  height: 400px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/20/13/22/sound-3243259_640.jpg);
+  background-repeat: no-repeat;
+  margin: 40px 0;
+}
+.sect1-heading {
+  font-size: 90px;
+  color: silver;
+  text-shadow: 3px 4px 3px gray;
+}
+.sect1 p {
+  font-size: 30px;
+  color: silver;
+}
+/* Section 1 */
+
+/* Section 2 */
+.sect2 {
+  margin: 200px 0 0 0;
+  width: 90%;
+}
+
+.songs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.songs {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+audio {
+  width: 200px;
+}
+.songs img {
+  width: 200px;
+  margin: 20px 0 20px 0;
+  height: 200px;
+}
+
+/* Section 2 */
+
+/* Footer */
+.fnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: silver;
+  background-color: black;
+  padding: 10px 20px 10px 20px;
+}
+.fnav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+  margin: 0px;
+}
+.fnav ul a {
+  color: silver;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 20px;
+}
+.fnav div {
+  font-size: 20px;
+}
+
+/* Footer */

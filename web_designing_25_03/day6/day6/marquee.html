@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Tag</title>
+<style>
+    .marquee-heading-container{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .marquee-img{
+height: 100px;
+    }
+</style>
+</head>
+<body>
+    <!-- marquee tag is used to make running message e.g. like a message for undermaintanens -->
+     <!-- marquee tag have two attributes
+      1. direction attribute which provide moving direction 
+      2. behavior attribute provide the different moving behavior
+      3. scrollamount is speed of the scrolling-->
+      <marquee behavior="alternate" direction="up" scrollamount="10" class="marquee-heading-container">
+        Hello, I'm a Developer From Mumbai.
+        <marquee behavior="" direction="up" scrollamount="10">
+            <img src="https://cdn.pixabay.com/photo/2024/04/10/22/52/autumn-8688876_1280.jpg" alt="scrolling-image" class="marquee-img">
+      </marquee>
+      </marquee>
+      <marquee behavior="" direction="down" scrollamount="10">
+            <img src="https://cdn.pixabay.com/photo/2024/04/10/22/52/autumn-8688876_1280.jpg" alt="scrolling-image" class="marquee-img">
+      </marquee>
+
+    
+</body>
+</html>
