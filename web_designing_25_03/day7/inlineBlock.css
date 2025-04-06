@@ -1,59 +1,59 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section{
-height: 150vh;
+section {
+  height: 150vh;
 }
 
-.box1{
-    width: 400px;
-    /* height: 400px; */
-    background-color: aqua;
-    /* display: inline; */
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 30px;
-    right: 0;
+.box1 {
+  width: 400px;
+  /* height: 400px; */
+  background-color: aqua;
+  /* display: inline; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  right: 0;
 }
-.box2{
-    width: 400px;
-    /* height: 400px; */
-    background-color: silver;
-    /* display: inline; */
-    display: inline-flex;
-    /* display: none; */
-    /* visibility: hidden; */
-    flex-direction: column;
-    align-items: center;
+.box2 {
+  width: 400px;
+  /* height: 400px; */
+  background-color: silver;
+  /* display: inline; */
+  display: inline-flex;
+  /* display: none; */
+  /* visibility: hidden; */
+  flex-direction: column;
+  align-items: center;
 
-/* Postition:relative property 
+  /* Postition:relative property 
 solves the margin issue of element when it disturbs the other elements  */
-    /* position: relative; */
-/* position related properties are as follows:
+  /* position: relative; */
+  /* position related properties are as follows:
  top bottom left right 
  */
-/* top: 30px; */
-/* right: 30px; */
-/* left: 40px; */
-/* bottom: 40px; */
+  /* top: 30px; */
+  /* right: 30px; */
+  /* left: 40px; */
+  /* bottom: 40px; */
 }
-.box3{
-    width: 400px;
-    /* height: 400px; */
-    background-color: red;
-    /* display: inline; */
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    /* Position: absolute
-    It moves the element according to the parent element */
-    position: absolute;
-    /* right: 0; */
-    bottom: 0;
-    left: 0;
+.box3 {
+  width: 400px;
+  /* height: 400px; */
+  background-color: red;
+  /* display: inline; */
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* Position: absolute
+    It moves the element according to the ancestor or parent element */
+  position: absolute;
+  /* right: 0; */
+  bottom: 0;
+  left: 0;
 }
 
 /* 
@@ -69,23 +69,25 @@ visiblity:hidden => the element is present on the webpage meaning it takes the s
 
 1. Class represented by dot(.)
 2. id represented by hash(#).
-3. group by selector represented by comman(,) e.g. h1,h2,h3(group).
+3. group by selector represented by comma(,) e.g. h1,h2,h3(group).
 4. universal selector represented by star(*)
 
 */
 /* Group By Selector */
-.box1, .box2, .box3{
-padding: 20px;
+.box1,
+.box2,
+.box3 {
+  padding: 20px;
 }
 
-.box4{
-    width: 400px;
-    background-color: green;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    /* position:sticky
+.box4 {
+  width: 400px;
+  background-color: green;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* position:sticky
     Only moves from the that position in top   */
-    position: sticky;
-    top: 30px;
+  position: sticky;
+  top: 30px;
 }
