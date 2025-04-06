@@ -37,6 +37,10 @@ body {
 /* Navbar */
 
 /* Main Container */
+.main-container {
+  display: flex;
+  justify-content: center;
+}
 /* Section 1 */
 .sect1 h1 {
   text-align: center;

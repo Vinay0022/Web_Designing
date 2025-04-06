@@ -43,10 +43,11 @@ video {
 
 /* background-image url should end with and extenstion otherwise it will not load */
 .main-container {
-  background-image: url(https://cdn.pixabay.com/photo/2014/08/03/19/13/leaf-409258_1280.jpg);
+  /* background-image linear-gradient top bottom left-right */
+  background-image: linear-gradient(rgba(168, 179, 73, 0.708),rgba(114, 85, 85, 0.523),rgba(119, 126, 16, 0.505)), url(https://cdn.pixabay.com/photo/2014/08/03/19/13/leaf-409258_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 250vh;
+  height: 450vh;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -78,11 +79,15 @@ marquee {
   background-image: url(https://cdn.pixabay.com/photo/2018/03/20/13/22/sound-3243259_640.jpg);
   background-repeat: no-repeat;
   margin: 40px 0;
+  padding: 0 50px;
 }
 .sect1-heading {
   font-size: 90px;
   color: silver;
   text-shadow: 3px 4px 3px gray;
+}
+.sect1-heading-container{
+  padding: 0 40px;
 }
 .sect1 p {
   font-size: 30px;

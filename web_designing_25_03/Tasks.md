@@ -28,3 +28,8 @@ create a wedding page it should contain
 
 - [ ] Create a Map with marquee.
 - [ ] Music Playlist with audio and video tags.
+
+# Day 7
+
+- [ ] Z layer layring
+- [ ] Portfolio
