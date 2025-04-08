@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #64998d;
+  color: white;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+.navbar-items a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.navbar-items a:hover {
+  color: #64998d;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Navbar */
+
+/* Main */
+
+/* Section 1 */
+.sect1-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  background-color: #3a978196;
+}
+
+.sect1-container p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sect1-container img {
+  height: 55vh;
+}
+
+/* Section 1 */
+
+/* Section 2 */
+
+.sect2-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 90px 0;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: khaki;
+}
+
+.sect2-container p {
+  line-height: 40px;
+}
+
+.sect2-container img {
+  width: 300px;
+}
+.sect2-container img:hover {
+  transform: rotate(-20deg);
+  transition: 0.2s ease-in-out;
+}
+
+/* Section 2 */
+
+/* Section 3 */
+.sect3-container {
+  background-color: #64998d;
+  color: #2f2f2f;
+}
+
+.sect3-container img {
+  height: 400px;
+}
+.sect3-container h1 {
+  font-size: 45px;
+  margin: 0;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+.sect3-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0 80px 0;
+}
+
+.sect3-content-items {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.sect3-content-items ul {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 30px 60px;
+  list-style-type: none;
+}
+
+/* Section 3 */
+
+/* Section 4 */
+.sect4-container {
+  background-color: khaki;
+  color: #2f2f2f;
+}
+.sect4-container h1 {
+  font-size: 45px;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+.sect4-container > div {
+  padding: 10px 20px;
+}
+.sect4-container img {
+  width: 90px;
+  height: 90px;
+  padding: 20px 20px;
+  margin: 0 20px;
+}
+/* Section 4 */
+
+/* Sticky Contact */
+.sticky-contact {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+}
+
+.sticky-contact img {
+  width: 45px;
+  height: 45px;
+}
+
+.sticky-contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sticky-contact img:hover {
+  /* Make bigger images when hover */
+  transform: scale(1.1);
+}
+
+.sticky-contact ul {
+  list-style-type: none;
+}
+/* Sticky Contact */
+
+/* Main */
+
+/* Footer */
+.fnav {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #2f2f2f;
+  color: khaki;
+}
+/* Footer */
