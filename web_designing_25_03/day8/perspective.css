@@ -1,0 +1,26 @@
+.container {
+  width: 500px;
+  height: 500px;
+  /* 1rem = 16px */
+  margin: 10rem auto;
+  /* as in drawing it will strech it. */
+  perspective: 300px;
+}
+
+h1 {
+  text-shadow: 10px 10px 10px red;
+  background: transparent;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+  transition: 1s;
+  cursor: pointer;
+  text-align: center;
+  background: transparent;
+}
+.box:hover {
+  transform: rotateX(0) rotateY(0) rotateZ(0);
+}

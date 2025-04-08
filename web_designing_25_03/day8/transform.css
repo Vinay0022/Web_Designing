@@ -1,0 +1,48 @@
+.box {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+  /* transform: rotateX(-5deg) rotateY(20deg); */
+}
+
+.box:hover {
+  /* 2d Translate */
+
+  /* translate property of transform moves element in 2d in X and Y direction */
+  /* It's used with combination of transistion for making it smoother. */
+
+  /* transform: translate(200px, 50px); */
+  /* transform: translate(50%, 200px);
+  transition: 5s ease-in; */
+
+  /* Rotate Property is used to roate things  */
+  /* transform: rotateX(0deg) rotateY(0deg);
+  transition: 1s ease-in; */
+
+  /* Scale property is used to give minimize and maximize effect */
+  /* Higher the value == Higher the zoom
+  Lower the value == Lower the zoom */
+  /* transform: scale(0.3, 0.3);
+  transition: 1s ease; */
+
+  /* Skew property is used to give slanting to the element */
+  /* transform: skew(20deg, 10deg);
+  transition: 1s ease; */
+  /* 2d Translate */
+
+  /* 3d Translate */
+  /* Not much difference between in 2d and 3d */
+
+  /* transform: translate3d(50px, 100px, -200px);
+  transition: 1s ease-in-out; */
+
+  /* In Rotate Property you can see the difference now. */
+  /* transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+  transition: 5s ease; */
+
+  /* 3d Scale you can see more difference compared to 2d */
+  transform: scale3d(0.8, 0.4, 0.1);
+  transition: 5s ease-in-out;
+
+  /* 3d Translate */
+}

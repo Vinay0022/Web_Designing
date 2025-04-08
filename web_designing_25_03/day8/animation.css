@@ -1,0 +1,98 @@
+.animate-box {
+  width: 450px;
+  height: 350px;
+  /* Position relative is important because it let's the element leaves it's normal flow and flow according to the document flow or break the normal flow. */
+  position: relative;
+  animation: demo;
+  /* It's imp to provide animation-duration otherwise it will not show any animation */
+  animation-duration: 2s;
+  /* how many times you want to run */
+  animation-iteration-count: infinite;
+  /* for direction */
+  animation-direction: alternate;
+  /* Giving timing for the animation it remove the slowness at the end */
+  animation-timing-function: linear;
+}
+
+@keyframes demo {
+  /* from {
+    left: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/14/02/03/challenger-5829827_640.jpg);
+    background-size: cover;
+  }
+
+  to {
+    left: 700px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/24/17/20/dodge-295421_640.png);
+    background-size: cover;
+  } */
+
+  /* You can provide different animation at different times using percentages. */
+  0% {
+    left: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/14/02/03/challenger-5829827_640.jpg);
+    background-size: cover;
+  }
+
+  25% {
+    top: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/14/02/03/challenger-5829827_640.jpg);
+    background-size: cover;
+  }
+
+  50% {
+    top: 140px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/14/02/03/challenger-5829827_640.jpg);
+    background-size: cover;
+  }
+
+  75% {
+    top: -140px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/14/02/03/challenger-5829827_640.jpg);
+    background-size: cover;
+  }
+
+  100% {
+    left: 700px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/24/17/20/dodge-295421_640.png);
+    background-size: cover;
+  }
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  animation: boxing;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes boxing {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: red;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+    background-color: green;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    background-color: aqua;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+    background-color: khaki;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: yellow;
+  }
+}
