@@ -1,0 +1,87 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/07/26/05/28/circles-7345110_960_720.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section 1 Table Heading */
+.table-heading {
+  width: 50rem;
+  margin: 30px auto;
+  color: white;
+  display: flex;
+}
+
+.table-heading-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table-heading-1 .heading {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+}
+
+.table-heading-1-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(236, 27, 46, 1) 0%,
+    rgba(147, 41, 30, 1) 90%
+  );
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+/* section 1 Table Heading */
+
+/* section 1 Table Heading 2 */
+
+.cricketBall-logo {
+  width: 100px;
+  position: relative;
+  top: 50px;
+  left: 7rem;
+}
+.table-heading-2 {
+  margin: 0 0 0 50px;
+}
+.table-heading-2 div {
+  background-color: #c0c0c0;
+  color: black;
+  border-radius: 10px;
+  padding: 30px;
+}
+/* section 1 Table Heading 2 */
+
+table {
+  width: 1000px;
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border: 2px solid darkred;
+  border-collapse: collapse;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+th {
+  background-color: black;
+  color: white;
+}
+tr {
+  background-color: silver;
+  color: darkred;
+}

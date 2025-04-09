@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Score Table</title>
+    <link rel="stylesheet" href="cricketScore.css" />
+  </head>
+  <body>
+    <!-- For Clipping Images -->
+    <!-- https://bennettfeely.com/clippy/ -->
+    <!-- Task Make anything with table -->
+
+    <section class="table-heading">
+      <div class="table-heading-1">
+        <div class="table-heading-1-items">
+          <h1>POINTS TABLE</h1>
+          <p>Powered by MRF Tyres</p>
+        </div>
+        <div class="heading">AS ON 14 MARCH 2022</div>
+      </div>
+      <div class="table-heading-2">
+        <img
+          src="https://cdn.pixabay.com/photo/2014/03/24/17/15/cricket-ball-295206_1280.png"
+          alt="cricket-ball"
+          class="cricketBall-logo"
+        />
+        <div>ICC WORLD TEST CHAMPIONSHIP</div>
+      </div>
+    </section>
+
+    <!-- If you want to divide your heading into row or column wise then don't put the th tags inside the thead tag. because rowspan and colspan does not work inside thead tag-->
+    <table>
+      <tr>
+        <th rowspan="2"></th>
+        <th rowspan="2">PCT(%)</th>
+        <th rowspan="2">POINTS</th>
+        <th colspan="3">MATCHES</th>
+        <th rowspan="2">SERIES</th>
+        <th rowspan="2">PENALTY OVERS</th>
+      </tr>
+      <tr>
+        <td>WON</td>
+        <td>LOSS</td>
+        <td>DRAW</td>
+      </tr>
+      <tbody>
+        <tr>
+          <td>AUSTRALIA</td>
+          <td>77.77</td>
+          <td>56</td>
+          <td>4</td>
+          <td>0</td>
+          <td>2</td>
+          <td>2*</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>PAKISTAN</td>
+          <td>66.66</td>
+          <td>40</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>3*</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>SOUTH AFRICA</td>
+          <td>60.00</td>
+          <td>36</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>INDIA</td>
+          <td>58.33</td>
+          <td>77</td>
+          <td>6</td>
+          <td>3</td>
+          <td>2</td>
+          <td>4*</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>SRI LANKA</td>
+          <td>50.00</td>
+          <td>24</td>
+          <td>2</td>
+          <td>0</td>
+          <td>2</td>
+          <td>2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>NEW ZEALAND</td>
+          <td>38.88</td>
+          <td>28</td>
+          <td>2</td>
+          <td>3</td>
+          <td>1</td>
+          <td>3</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>BANGALADESH</td>
+          <td>25.00</td>
+          <td>12</td>
+          <td>1</td>
+          <td>3</td>
+          <td>0</td>
+          <td>2</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>WEST INDIES</td>
+          <td>23.33</td>
+          <td>14</td>
+          <td>1</td>
+          <td>3</td>
+          <td>1</td>
+          <td>3*</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>ENGLAND</td>
+          <td>11.67</td>
+          <td>14</td>
+          <td>1</td>
+          <td>6</td>
+          <td>3</td>
+          <td>3*</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
