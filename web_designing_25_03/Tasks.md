@@ -33,3 +33,18 @@ create a wedding page it should contain
 
 - [ ] Z layer layring
 - [ ] Portfolio
+
+# Day 8
+
+- [ ] Learned about animation, animation-duration,animation-iteration-count, animation-timing-function.
+- [ ] transform 2d and 3d => skew, translate, scale along with transition.
+
+# Day 9
+
+- [ ] Learned about table.
+- [ ] Task cricket score table.
+- [ ] new tags => blockquote, q, abbr, address, pre, figure, figcaption, cite, article.
+
+# Day 10
+- [ ] Media Query for devices with sizes => 1400px, 1200px, 1024px, 992px, 820px, 768px, 767px.
+- [ ] Grid

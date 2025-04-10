@@ -1,0 +1,19 @@
+.box{
+    background-color: aqua;
+}
+
+@media screen and (max-width:1024px){
+    /* 
+    large desktop 1400px
+    mid laptop 1200px 
+   small laptop 1024px
+   laptop mid small 992px
+   ipad 820px
+   ipad mini 768px
+   small devices 767px
+    */
+    .box{
+        background-color: green;
+        font-size: 3rem;
+    }
+}
