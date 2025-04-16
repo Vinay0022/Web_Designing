@@ -46,5 +46,17 @@ create a wedding page it should contain
 - [ ] new tags => blockquote, q, abbr, address, pre, figure, figcaption, cite, article.
 
 # Day 10
+
 - [ ] Media Query for devices with sizes => 1400px, 1200px, 1024px, 992px, 820px, 768px, 767px.
 - [ ] Grid
+- [ ] Make your portfolio website responsive using media query.
+
+# Day 11
+
+- [ ] Create Contact Us
+- Learned about forms.
+- label (for), input (id, name), maxlength, required.
+
+# Day 12
+
+- [ ] HTML AND CSS TEST
