@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input{
+            padding: 10px;
+            background-color: aqua;
+            border: none;
+            color: white;
+        }
+        /* The area which is highlighted after we enter into the input field is called focus. */
+        input:focus{
+outline: none;
+        }
+        input::placeholder{
+            color: blue;
+        }
+        label{
+            text-decoration: underline red;
+        }
+    </style>
+</head>
+<body>
+    <!-- label "for" and input "id" attribute should have same name otherwise clicking on the label will not activate the input.-->
+    <!-- input "name" attributes is used for the url parameters -->
+    <!-- input "required" attribute is important. It does not have any value. -->
+    <!-- limiting the input value with minlength and maxlength -->
+    <!-- radio button should have same "name" attribute. If it's not the same then it will allow to select all the radio button. radio button should only allow to select one option.  -->
+
+<!-- take every input and label in div for easier styling. -->
+   <form method="get">
+    <label for="fname">Name</label>
+<input type="text" name="fname" placeholder="enter your name" id="fname" required> <br /> <br>
+
+<label for="lName">Last Name</label>
+<input type="text" name="lName" placeholder="enter your last name" id="lName" required> <br /> <br>
+
+<label for="pass">Password</label>
+<input type="password" name="password" id="pass" minlength="6" maxlength="8" required> <br>
+<br>
+
+<label for="no">Enter your number</label>
+<input type="number" id="no" placeholder="Enter your number" name="number" required> <br>
+<br>
+
+<label for="email">Enter your email</label>
+<input type="email" id="email" name="email" required> <br> <br>
+
+<label for="message">Enter you text</label> <br>
+<textarea name="msg" id="message" rows="4" cols="60"> </textarea> <br> <br>
+
+<label for="M">Male</label>
+<input type="radio" name="gender" id="M">
+
+<label for="F">Female</label>
+<input type="radio" name="gender" id="F"> <br> <br>
+
+<label for="courses">Courses</label> <br> 
+<label for="mba">MBA</label>
+<input type="checkbox" id="mba" name="mba">
+
+<label for="bca">BCA</label>
+<input type="checkbox" id="bca" name="bca">
+
+<label for="be">BE</label>
+<input type="checkbox" id="be" name="be">
+
+<label for="bsc">BSC</label>
+<input type="checkbox" id="bsc" name="bsc"> <br> <br>
+
+
+<label for="lang">Languages</label>
+<select name="lang" id="lang">
+    <option value="">Select</option>
+    <option value="">Hindi</option>
+    <option value="">English</option>
+    <option value="">Marathi</option>
+    <option value="">Gujrati</option>
+</select> <br><br>
+
+<!-- datalist "id" and input "list" attribute should have same name
+label "for" and input "id" attribute should have same name.
+-->
+<label for="cars">Choose your browser from the list:</label>
+<input list="car" name="browser" id="cars">
+<datalist id="car">
+    <option value="mercedes"></option>
+    <option value="bmw"></option>
+    <option value="lamborgini"></option>
+</datalist> <br> <br>
+
+<label for="File">Uplode File</label>
+<input type="file" id="File"> <br> <br>
+
+<input type="color"> <br><br>
+
+<input type="date"> <br><br>
+
+<input type="time"> <br><br>
+
+<input type="submit" value="submit">
+   </form> 
+</body>
+</html>

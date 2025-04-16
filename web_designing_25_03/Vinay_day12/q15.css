@@ -1,0 +1,61 @@
+/* Section */
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.heading {
+  font-size: 40px;
+  color: goldenrod;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+/* Box Holder */
+/* REMEMBER: IMPORTANT: If you have parent container is flex and it is centering it's child container with justify-content and align-items. 
+ * But Still the Child container is not getting centered.
+ * How to solve this issue?
+ * 1. Check if the child container (which holdes the children) element have flex property.
+ *     If it does then the child container is using it's default justify-content and align-items property for it's children making them to stick on the left side.
+ *     So, Child Container should center it's children with justify-content and align-items*/
+.box-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  padding: 30px;
+  background-color: rgb(79, 73, 73);
+  border-radius: 30px;
+}
+
+.box1-heading,
+.box2-heading,
+.box3-heading,
+.box4-heading {
+  display: flex;
+  gap: 20px;
+}
+
+/* Box Holder */
+
+/* Section */

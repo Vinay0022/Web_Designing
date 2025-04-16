@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Test</title>
+</head>
+<body>
+    <h1>HTML and CSS Test</h1>
+    <p>Vinay Bait</p>
+
+    <p>Q1) What is Doctype in HTML?</p>
+    <pre>DOCTYPE defines the HTML version.
+If the DOCTYPE is in all capital then HTML5 is used. 
+otherwise older version of html is used.
+    </pre>
+    
+    <p>Q2) Difference between Tags and Elements with Examples.</p>
+    <pre>When there is no content present inside the html tag then it's called Tag.
+When there is content present inside the html tag then it's called Element.
+    </pre>
+
+<p>Q3) Which are new tags in html5?</p>
+<pre>
+New tag in html are as follows:
+1. < ins>< /ins>
+e.g. <ins>Underline</ins>
+</pre>
+    
+<p>Q4) What are the HTML attributes with One or Two Examples?</p>
+<pre>
+    HTML attributes is used to define the properties of that particular element.
+    e.g.
+    <b>lang</b> attriute in html defines the language of the webpage.
+    <b>link</b> tag have two attributes one is <b>href</b> for the location of the styling file and second is <b>rel</b> which defines the that we are using a stylesheet.
+
+
+</pre>
+
+<p>Q5) List Types in HTML?</p>
+<pre>There are 3 types of list in HTML.
+    1. Unordered List
+    2. Ordered List.
+    3. Description List
+</pre>
+
+<p>Q6) Template for HTML Struture?</p>
+<pre>Template defines the html properties such as language of the webpage, some meta data viewport, charset.
+<! DOCTYPE html>
+<html lang="en">
+< head>
+    < meta charset="UTF-8">
+    < meta name="viewport" content="width=device-width, initial-scale=1.0">
+    < title>Document< /title>
+</ head>
+< body>
+< /body>
+< /html>
+</pre>
+
+<p>Q7) What is CSS?</p>
+<pre>CSS stands for Cascading Style Sheet.
+It's used for defining the styling of the webpage.
+</pre>
+
+<p>Q8) What is Box Model in CSS?</p>
+<pre>Box Model in CSS defines the strucuture of html element.
+It contains margin, border and padding.
+</pre>
+
+<p>Q9) Forms in HTML with some inputs and some validation like required, maxlength etc.</p>
+<pre>The Following input is for text and it's maxlength is 4 characters.</pre>
+<form>
+<label for="name">Name: </label>
+    <input type="text" id="name" name="name" maxlength="4">
+</form>
+
+
+<p>Q10) What is syntax of keyframes with example?</p>
+<pre>
+@keyframes name_of_the_animation{
+from {
+
+}
+to{
+
+}
+OR 
+0%{
+
+}
+50%{
+
+}
+100%{
+
+}
+}
+</pre>
+<pre>e.g.
+    p{
+        width:100px;
+        height: 100px;
+        animation: demo;
+        animation-duration: 5s;
+        background-color: gray;
+    }
+    @keyframes demo{
+        0%{
+            left: 0px;
+            top: 0px;
+            background-color: red;
+        }
+
+        50%{
+            left: 200px;
+            top: 0px;
+            background-color: green;
+        }
+
+        75%{
+            left: 200px;
+            top: 200px;
+            background-color: blue;
+        }
+        100%{
+            left: 0px;
+            top:0px;
+            background-color: yellow;
+        }
+    }
+</pre>
+
+<p>Q11) Different Types of Selectors in CSS?</p>
+<pre>
+1. Class selector represented by dot (.).
+2. id selector represented by hashtag (#).
+3. descendant combinator represented by space ( ).
+4. child combinator represented by greate than (>).
+5. attribute selector represented by html tags.
+6. group by selector represented by comman (,). 
+</pre>
+
+<p>Q12) How Many Types of CSS to Add in HTML?</p>
+<pre>There are 3 ways to add CSS in HTML.
+They are as follows along with their priority.
+1. inline css
+   e.g. The styling is defined within the html tag.
+   <p style="background-color: red;" >Tag with inline css</p>
+2. external css
+   e.g. The styling is defined using a external css file.
+3. internal css
+   The styling is defined inside the < head> tag within < style>< /style> tag. 
+   e.g. < head>
+  < style> 
+  p{
+    background-color:red;
+  }
+  < /style>
+   < /head>
+</pre>
+
+<p>Q13) What are Media Queries? Explain with Example.</p>
+<pre>Media Queries are used to make the website responsive across all the devices of different sizes.
+    The Following code is for making a div responsive.
+    < html >
+    < head>
+    < style>
+div{
+    margin: 50px;
+padding: 30px;
+font-size: 80px;
+}
+@media screen (max-length: 767px){
+    div{
+        padding: 10px
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+    < /style>
+    < /head>
+    < body>
+< div>This is a Div Tag which is responsive.< /div>
+    < /body>
+    < /html>
+</pre>
+
+<p>Q14) What is the use of usemap in image mapping with example?</p>
+<pre>
+map is used to make the portions of the image clickable and those clickable areas are hyperlinks.
+usemap is attribute of img which is used to map the map tag. 
+< map name="demo"> 
+< area title="title of the image" coord="60, 60, 60, 60" shape="react"> < /area>
+< /map>
+< img src="" alt="" usemap="#demo">
+</pre>
+
+</body>
+</html>
