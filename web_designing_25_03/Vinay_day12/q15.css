@@ -2,10 +2,10 @@
 body {
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 .container {
-  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@ body {
 
 img {
   width: 100px;
+  border-radius: 50px;
 }
 
 /* Box Holder */
@@ -32,6 +33,7 @@ img {
  *     If it does then the child container is using it's default justify-content and align-items property for it's children making them to stick on the left side.
  *     So, Child Container should center it's children with justify-content and align-items*/
 .box-holder {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;

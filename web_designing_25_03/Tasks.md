@@ -60,3 +60,12 @@ create a wedding page it should contain
 # Day 12
 
 - [ ] HTML AND CSS TEST
+
+# Day 13
+
+- [ ] Intro To Javascript
+- [ ] primitive data types
+- [ ] arthimetic operator +,-,/,\*
+- [ ] assignment =, ==, ===
+- [ ] keyword const, var, let
+- [ ] linking of html and javascript
