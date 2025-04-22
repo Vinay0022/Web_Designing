@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisting Strict</title>
+</head>
+<body>
+<script>
+    // TASK
+    // Greatest of 3 numbers.
+    // TASK
+ "use strict" 
+// should always be on top
+
+//hoisting with different keywords
+// Hoisting is caused when a variable is not declared and initialized. But it's called or used.
+//1. const
+// console.log(fname);
+// fname = "peter";
+// const fname = "sam";
+
+//2. let
+// console.log(fname);
+// fname = "peter";
+// let fname ="sam";
+
+//3. var
+console.log(fname);
+// fname = "peter";
+// var fname = "sam";
+
+// use strict solves the hoisting problem
+// It gives us proper error.
+// a = 5;
+// b = 1000;
+// c= "demo";
+// console.log(a);
+// console.log(b);
+// console.log(c);
+    </script>
+</body>
+</html>
