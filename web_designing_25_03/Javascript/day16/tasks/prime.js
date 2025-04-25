@@ -1,10 +1,13 @@
 let num = prompt("Enter the number: ");
-if(num==2){
-  confirm(`The number ${num} is a prime number.`);
+if (num == 1) {
+  confirm(
+    `The number ${num} is neither a prime number nor a composite number.`
+  );
 }
-else if (num%2!=0){
+if (num == 2) {
   confirm(`The number ${num} is a prime number.`);
-}
-else{
+} else if (num % 2 != 0) {
+  confirm(`The number ${num} is a prime number.`);
+} else {
   confirm(`The number ${num} is not a prime number.`);
 }
