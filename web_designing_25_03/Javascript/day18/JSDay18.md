@@ -23,6 +23,7 @@ April 28 2025
   - shift
   - splice
   - join
+  - sort
 
 ### Concepts
 

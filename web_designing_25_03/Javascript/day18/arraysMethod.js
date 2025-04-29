@@ -57,8 +57,8 @@ It remove and replace it.
 */
 let fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
 fruits.splice(4, 1, "Strawberry");
-console.log(fruits);
-document.write(fruits);
+// console.log(fruits);
+// document.write(fruits);
 
 /*
 concat 
@@ -67,7 +67,7 @@ concatenate the arrays.
 var val = [1, 2, 3, 4];
 var val2 = [5, 6, 7, 8];
 var res = val.concat(val2);
-console.log(res);
+// console.log(res);
 
 /*
 reverse
@@ -75,4 +75,52 @@ It reverses the arrays.
 */
 var ordered = [1, 2, 3, 4];
 var reversed = ordered.reverse();
-console.log(reversed);
+// console.log(reversed);
+
+
+/*
+sort 
+*/
+let alphabets = ["A","D","C","B"];
+let sorted = alphabets.sort();
+document.write(sorted);
+
+/* Sorting Numbers
+numbers are not sorted for that we have to do that using compare function and we have to provide (create) compare function
+ p-q => ascending
+ q-p => descending
+There are two ways to create compare function for sorting numbers and they are as follow:
+*/
+// Type 1 sort
+// creating function inside the sort parameter.
+let sorted_num =[ 1200,4,10,25,100,55,75];
+sorted_num.sort(
+    function (p,q) {
+        return q-p;
+    }
+);
+// console.log(sorted_num);
+
+// Type 2 sort
+// passing defined function to sort parameter
+// sort(compareFunction)
+// sort(compareFunction) parameter require function defination. So we cannot call the function inside it. We just have to provide the name of the function.
+let numArr = [1004,100,2005,100,55,75];
+numArr.sort(arrSort);
+function arrSort(p,q){
+    return p-q;
+}
+console.log(numArr);
+
+/* VERY IMPORTANT
+Difference between calling function and passing function name in another function parameter.
+If we pass just the name of the function inside the parameter then we pass the function defination.
+If we call the function then it will execute that function.
+e.g. sort()
+*/
+
+// Arrow Function
+// let one = ()=>{
+//     console.log("Hello, World!");
+// }
+// one();
