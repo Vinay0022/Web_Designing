@@ -43,17 +43,17 @@ arr3.shift();
 // console.log(arr3);
 
 /*
-. slice 
+7. slice 
 extract some part of array and returns new array
 */
 var num1 = [10, 20, 40, 50, 30];
 var x = num1.slice(2, 4);
 // console.log(x);
 
-/* . splice
+/* 8. splice
 It remove and replace it.
 1. position, count, replacement.
-2. does note return new array.
+2. does not return new array.
 */
 let fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
 fruits.splice(4, 1, "Strawberry");
@@ -61,7 +61,7 @@ fruits.splice(4, 1, "Strawberry");
 // document.write(fruits);
 
 /*
-concat 
+9. concat 
 concatenate the arrays.
 */
 var val = [1, 2, 3, 4];
@@ -70,18 +70,17 @@ var res = val.concat(val2);
 // console.log(res);
 
 /*
-reverse
+10. reverse
 It reverses the arrays.
 */
 var ordered = [1, 2, 3, 4];
 var reversed = ordered.reverse();
 // console.log(reversed);
 
-
 /*
-sort 
+11. sort 
 */
-let alphabets = ["A","D","C","B"];
+let alphabets = ["A", "D", "C", "B"];
 let sorted = alphabets.sort();
 document.write(sorted);
 
@@ -93,22 +92,20 @@ There are two ways to create compare function for sorting numbers and they are a
 */
 // Type 1 sort
 // creating function inside the sort parameter.
-let sorted_num =[ 1200,4,10,25,100,55,75];
-sorted_num.sort(
-    function (p,q) {
-        return q-p;
-    }
-);
+let sorted_num = [1200, 4, 10, 25, 100, 55, 75];
+sorted_num.sort(function (p, q) {
+  return q - p;
+});
 // console.log(sorted_num);
 
 // Type 2 sort
 // passing defined function to sort parameter
 // sort(compareFunction)
 // sort(compareFunction) parameter require function defination. So we cannot call the function inside it. We just have to provide the name of the function.
-let numArr = [1004,100,2005,100,55,75];
+let numArr = [1004, 100, 2005, 100, 55, 75];
 numArr.sort(arrSort);
-function arrSort(p,q){
-    return p-q;
+function arrSort(p, q) {
+  return p - q;
 }
 console.log(numArr);
 
