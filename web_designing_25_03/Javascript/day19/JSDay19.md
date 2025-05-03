@@ -18,7 +18,7 @@ What is the difference between id and class?
 
 - [ ] using promt takes array and sort them using sort function.
 - [x] click button dice using random function.
-- [ ] responsive website project.
+- [x] responsive website project.
 - [x] var employee = {
       id:1,
       name:"ankit",
@@ -49,8 +49,60 @@ What is the difference between id and class?
 - [x] let num = [12,90,70,80,10]
       reverse the numbers
 
-- [ ] complete your html css website\_
+- [x] complete your html css website\_
 
-- [ ] complete notes for day 19
+- [x] complete notes for day 19
 
 ## What I Learned
+
+- String Methods
+
+  - concat()
+    It's a method to concatinate string.
+
+  - charAt()
+    It's method use to get the character at the specified index.
+
+  - toLowerCase() and toUpperCase()
+    converts the string into lowercase and uppercase.
+
+  - slice()
+    It's method use to extract characters from string.
+
+  - substring(from,to)
+    It's method same as slice().
+    "from" is included but "to" is excluded.
+    method does not change the original string.
+
+  - substr()
+    same as substring() but it's deprecated.
+
+  - replace()
+    It's a method that replaces only the first occurrence of the specified string.
+
+  - replaceAll()
+    It's a method that replaces all occurrence of the specified string.
+
+- Number Methods
+  - Math.PI()
+    It's a method that give value of pi.
+  - sqrt()
+    It's a method that gives square root of the give number.
+  - pow()
+    It's give value of the given number to the power of specified value.
+  - round()
+    It's a method that round off the number.
+  - ceil()  
+    It's a method that returns the smalled integer greater than or equal to the given number.
+  - floor()  
+    It's a method that returns the largest integer greater than or equal to the given number.
+  - min()
+    It's a method that return smallest number from the given numbers.
+  - max()
+    It's a method that return largest number from the given numbers.
+  - toFixed()
+    It's method that converts number to string.
+    Rounds the give number to specified number decimals.
+  - random()
+    It's a method that is used to return random numbers.
+    We can multiply it with number+1(we want to have as in range) +1 we need it, otherwise it will not work and we can have a range of random numbers.
