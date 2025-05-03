@@ -16,7 +16,7 @@ What is the difference between id and class?
 
 ## Tasks
 
-- [ ] using promt takes array and sort them using sort function.
+- [x] using promt takes array and sort them using sort function.
 - [x] click button dice using random function.
 - [x] responsive website project.
 - [x] var employee = {
@@ -82,6 +82,10 @@ What is the difference between id and class?
 
   - replaceAll()
     It's a method that replaces all occurrence of the specified string.
+
+  - split()
+    It's method that splits the string into array of substring.
+    It return new array.
 
 - Number Methods
   - Math.PI()
