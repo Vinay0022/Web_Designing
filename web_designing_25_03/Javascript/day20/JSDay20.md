@@ -6,7 +6,7 @@
 
 ## Tasks
 
-- [ ] navbar active navbar-items.
+- [x] navbar active navbar-items.
 
 ## What I learned
 
